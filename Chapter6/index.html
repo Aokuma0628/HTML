@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>6章追加</title>
+  </head>
+  <body>
+    <h2>6章のサンプルコード</h2>
+    <form action="../Chapter5/index.html" method="post">
+      <dl>
+        <dt>検索</dt>
+        <dd>
+          <label for="search">クリック</label>
+          <input type="search" id="search" placeholder="検索欄">
+        </dd>
+
+        <dt>電話番号</dt>
+        <dd><input type="tel" name="tel" placeholder="xxx-yyyy-zzzz"></dd>
+
+        <dt>日付</dt>
+        <dd><input type="date" name="date"></dd>
+
+        <dt>性別</dt>
+        <dd>
+          <input type="radio" name="gender" value="man">男
+          <input type="radio" name="gender" value="woman">女
+        </dd>
+
+        <dt>来店方法</dt>
+        <dd>
+          <select name="select">
+            <option value="select1" selected>車</option>
+            <option value="select2">電車</option>
+            <option value="select3">バス</option>
+            <option value="select4">徒歩</option>
+          </select>
+        </dd>
+
+        <dt>コメント欄</dt>
+        <dd><textarea name="comment" rows="4" placeholder="コメント欄"></textarea></dd>
+
+        <dt>ファイル選択</dt>
+        <dd><input type="file" name="file"></dd>
+
+        <dt>画像選択</dt>
+        <dd><input type="file" name="file"></dd>
+      </dl>
+      <p><input type="submit" name="送信"></p>
+    </form>
+  </body>
+</html>
