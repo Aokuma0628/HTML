@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+.div1 {
+  background: #fff0de;
+  width: 5em;
+  height: 5em;
+  padding-left: 1em;
+  font-size: 2em;
+}
+
+.div2 {
+  border: 0.1em solid #000000;
+  padding: 1em 1em;
+  margin: 1em 1em;
+  width: 20em;
+  letter-spacing: 0.05em;
+}
+
+#content {
+  background: #fff0de;
+  height: 8em;
+  width:20em;
+}
+
+#box {
+  background: #f0deff;
+  height: 3em;
+  width:20em;
+  border: 0.1em solid #000; /*コメント*/
+  box-sizing: border-box;
+}
