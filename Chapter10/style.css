@@ -1,0 +1,30 @@
+@charset "UTF-8";
+
+.item1 {
+  background: #ffcd0d;
+  width: 5em;
+  height: 5em;
+  padding: 1em 1em;
+  position: absolute;
+  top:6em;
+  left: 3em;
+}
+
+.item2 {
+  background: #0dc0cc;
+  width: 10em;
+  height: 10em;
+  padding: 1em 1em;
+  opacity: 0.2;
+  position:relative;
+  float:left;
+}
+
+#str1 {
+  width: 30em;
+}
+
+#str2 {
+  width: 30em;
+  clear:left;
+}

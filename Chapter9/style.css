@@ -29,3 +29,17 @@
   border: 0.1em solid #000; /*コメント*/
   box-sizing: border-box;
 }
+
+.flexbox {
+  display:flex;
+  justify-content: flex-start;
+}
+
+.item {
+  width:8em;
+  margin: 1em 1em;
+  background: #cccccc;
+  height: 3em;
+  padding: 0.5em 0.5em;
+
+}
