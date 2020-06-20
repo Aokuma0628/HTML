@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+form {
+  position: relative;
+  top: 1em;
+  left: 1em;
+}
+
+dl {
+  width: 50em;
+  border-top: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+}
+
+dl dt {
+  float: left;
+  padding: 1em;
+  color: #887373;
+}
+
+dl dd {
+  padding: 1em 0 1em 18em;
+  margin: 0;
+  border-bottom: 1px solid #cccccc;
+}
+
+dl .must {
+  color: #d23939;
+}
+
+input[type="email"] {
+  width: 50%;
+}
+
+dl input {
+  font-size: 1em;
+  padding: 0.2em;
+}
+
+dl label {
+  margin-right: 1em;
+}
+
+dl select {
+  font-size: 1em;
+}
+
+dl textarea {
+  width: 30em;
+  height: 5em;
+}
+
+input[type="submit"] {
+  position: relative;
+  left: 25em;
+  padding: 1.5em 4em;
+  color: #ffffff;
+  background: #7f6666;
+  font-weight: bolder;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  opacity: 0.8;
+}

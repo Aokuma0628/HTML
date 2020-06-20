@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./style.css" type="text/css">
+    <title>13章のサンプル</title>
+  </head>
+  <body>
+    <h2>13章のサンプル</h2>
+    <form class="cantact_form" action="index.html" method="post">
+      <dl class="input">
+          <dt>お問い合わせの種別</dt>
+          <dd>
+            <input type="radio" name="r_type" value="0"><label>お問い合わせ</label>
+            <input type="radio" name="r_type" value="1"><label>新規申し込み</label>
+            <input type="radio" name="r_type" value="2"><label>資料請求</label>
+          </dd>
+          <dt>お名前<span class="must">※</span></dt>
+          <dd><input type="text" name="t_name" placeholder="田中　太郎"></dd>
+          <dt>ふりがな<span class="must">※</span></dt>
+          <dd><input type="text" name="t_furigana" placeholder="たなか　たろう"></dd>
+          <dt>メールアドレス<span class="must">※</span></dt>
+          <dd><input type="email" name="e_mail" placeholder="sample@test.jp"></dd>
+          <dt>性別</dt>
+          <dd>
+            <input type="radio" name="r_sex" value="0"><label>男</label>
+            <input type="radio" name="r_sex" value="1"><label>女</label>
+          </dd>
+          <dt>どこでお知りになりましたか?</dt>
+          <dd>
+            <select name="question">
+              <option value="0">チラシ・DM</option>
+              <option value="1">店頭</option>
+              <option value="2">知人の紹介</option>
+            </select>
+          </dd>
+          <dt>お問い合わせ・ご質問内容</dt>
+          <dd>
+            <textarea name="t_area" placeholder="自由にご記入ください">
+            </textarea>
+        </dd>
+      </dl>
+      <input type="submit" name="s_submit" value="送信する">
+    </form>
+  </body>
+</html>
