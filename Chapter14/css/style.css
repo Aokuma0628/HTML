@@ -1,5 +1,46 @@
 @charset "UTF-8";
 
+/*header*/
+header {
+  display: flex;
+}
+
+header h1 {
+  margin: 25px 0 0 20px;
+}
+
+header nav {
+  margin: 0 0 0 auto;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 20px, 0;
+  padding: 0;
+  display: flex;
+}
+
+/*body*/
+body {
+  line-height: 1.7em;
+  font-size: 16px;
+  font-family: -apple-sytem, BlinkMacSystemFont, "Helvetica Neue", sens-serif;
+  color: #000000;
+}
+
+a:link {
+  color: #3585b7;
+}
+
+a:visited {
+  color: #6252b7;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #555555;
+}
+
 .spot-img {
   width: 15em;
   height: 10em;
