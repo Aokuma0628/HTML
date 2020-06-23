@@ -53,16 +53,53 @@ header nav ul li a:hover {
   box-sizing: border-box;
 }
 
+main .title {
+  padding: 3em;
+  background: #e3e3f3;
+  width: 90%;
+}
+
+main .title h1 {
+  margin: 0;
+  line-height: 1;
+  font-size: 3em;
+  color: #66667f;
+}
+
+main .title ol {
+  list-style-type: none;
+  margin: 1.4em 0 0;
+  padding: 0;
+  display: flex;
+  font-size: 13px;
+}
+
+main .title ol li:after {
+  content: ">";
+  margin:0 0.7em 0;
+}
+
+main .title ol li:last-child:after {
+  content: none;
+}
+
 .home main .visual img {
   height: 30em;
   width: 100%;
+  border-radius: 1em;
 }
 
 .home main .visual p {
   position: relative;
-  top:-25em;
+  top:-23em;
   left: 1em;
   color: #fff;
+}
+
+.home main .visual p.catch {
+  font-size: 3em;
+  top: -7.5em;
+  left: 0.33em;
 }
 
 main .visual {
@@ -74,29 +111,52 @@ main .inner {
   margin: 1em 1em auto 2em;
 }
 
+main section {
+  display: flex;
+  margin:3em 0;
+}
+
+main section:first-child {
+  flex-direction: row-reverse;
+  margin: 3em 0;
+  position: relative;
+  left: -11em;
+
+}
+
+
+main section:first-child div {
+  margin: 0 1em;
+  padding-left: 0;
+  text-align: left;
+
+}
+
 main h2 {
   margin: 3em 0 1em;
   font-weight: normal;
   font-size: 25px;
   color: #7f6666;
+  clear: both;
 }
 
 main dl {
   width: 100%;
-  margin: 0 0 3em 1em;
+  margin: 0 0 2em 1em;
 }
 
 main dl dt {
   float: left;
   clear: both;
   padding: 0.6em 1em 0 0;
+  border-bottom: 0.1em solid #ccc;
   color: #998484;
 }
 
 main dl dd {
   border-bottom: 0.1em solid #ccc;
-  margin: 0 ;
-  padding: 0.6em 0.6em 0 2em;
+  margin: 0 0 0 3em ;
+  padding: 0.6em 0.6em 0 1em;
 }
 
 a:link {
@@ -115,6 +175,99 @@ a:hover {
 .spot-img {
   width: 21em;
   height: 14em;
+  border: 0.1em solid #333;
+  border-radius: 0.5em;
+}
+
+.home main #hirosaki {
+  height: 30em;
+  width: 100%;
+  border-radius: 1em;
+}
+
+.home main #dewa {
+  height: 30em;
+  width: 100%;
+  border-radius: 1em;
+}
+
+.home main .intro {
+  float: left
+}
+
+.home main .gmap {
+  margin: 1em 0 1em 1em;
+}
+
+
+.home orm {
+  position: relative;
+  top: 1em;
+  left: 1em;
+}
+
+.home form {
+  margin: 2em;
+}
+
+.home form dl {
+  width: 50em;
+  border-top: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+  border-right: 1px solid #cccccc;
+}
+
+.home form dl dt {
+  float: left;
+  padding: 1em;
+  color: #887373;
+}
+
+.home form dl dd {
+  padding: 1em 0 1em 18em;
+  margin: 0;
+  border-bottom: 1px solid #cccccc;
+}
+
+.home form dl .must {
+  color: #d23939;
+}
+
+.home form input[type="email"] {
+  width: 50%;
+}
+
+.home form dl input {
+  font-size: 1em;
+  padding: 0.2em;
+}
+
+.home form dl label {
+  margin-right: 1em;
+}
+
+.home form dl select {
+  font-size: 1em;
+}
+
+.home form dl textarea {
+  width: 30em;
+  height: 5em;
+}
+
+.home form  input[type="submit"] {
+  position: relative;
+  left: 25em;
+  padding: 1.5em 4em;
+  color: #ffffff;
+  background: #7f6666;
+  font-weight: bolder;
+  border-radius: 0.5em;
+  cursor: pointer;
+}
+
+.home form input[type="submit"]:hover {
+  opacity: 0.8;
 }
 
 
